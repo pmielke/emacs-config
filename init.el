@@ -29,7 +29,7 @@
 
 ; see https://github.com/jwiegley/dot-emacs/blob/master/init.el
 
-(let ((elapsed (float-time (time-subtract (current-time) 
-                                          emacs-load-start-time)))) 
+(let ((elapsed (float-time (time-subtract (current-time)
+                                          emacs-load-start-time))))
   (message "Loading %s...done (%.3fs)" load-file-name elapsed))
 
