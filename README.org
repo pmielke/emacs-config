@@ -1,0 +1,33 @@
+#+TITLE: README
+#+DATE: <2022-07-04 Mon 16:11>
+#+AUTHOR: Peter Mielke
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
+#+OPTIONS: author:nil c:nil creator:nil d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:nil p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:nil todo:t |:t
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [letterpaper]
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+SEQ_TODO: TODO PROPOSED ACTIVE | DONE DEFERRED REJECTED
+
+* My Emacs Configuration
+
+** Overview
+
+*** Support for Multiple Emacs versions
+
+My reasoning for splitting up configuration into emacs versions is to
+allow for different versions of Emacs to use the same configuration
+root. Other than a small section of code in the base =init.el= all
+code is separate.
+
+When a new version of Emacs comes out a new directory is created and
+code it slowly migrated from the previous version root.
+
+*** Persistent data
+
+*** Overriding elisp source
